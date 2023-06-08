@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "minqlx-plugins"
+version = "0.1.0"
+description = ""
+authors = ["vlkr <yakityyakyak@outlook.com>"]
+readme = "README.md"
+packages = [{include = "minqlx_plugins"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = ">=2.10,<3.0"
+requests = "^2.31.0"
+pyzmq = ">=3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
